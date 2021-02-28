@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Hello jQuery!</h1>
+        <p id="p1">
+            Gummies chocolate cake gummi bears powder gummi bears lemon drops carrot cake caramels. Bonbon cheesecake I love apple pie danish. Powder powder toffee apple pie cookie fruitcake carrot cake tootsie roll chocolate.
+        </p>
+        <p id="p2">
+            Pudding I love chocolate chocolate cake. Liquorice marshmallow chocolate cake powder caramels. Chocolate bar jujubes tootsie roll cookie I love I love. Pastry marshmallow cake muffin pie cupcake.
+        </p>
+        <p id="p3">
+            Brownie powder wafer. Tart sweet roll dragée tart. Powder gingerbread cheesecake caramels marshmallow.
+        </p>
+        <p>
+            Dragée macaroon dragée jelly-o gummies. Pastry cake gummies cupcake soufflé cheesecake lemon drops chocolate cake. Wafer cupcake bonbon sweet sesame snaps cake macaroon.
+        </p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script>
+        // Shorthand for $( document ).ready()
+        // $ means jQuery
+        // #p1 is the selector
+        // chaining  result of first function pass it to input of next function
+        // so apply new text to P1
+
+        $(function() {
+            $("#p1").text("Hello World!");
+            $("#p2").html("<p>Hello <strong>EVERYONE</strong> reading this </p>")
+            $("#p2").text("<p>Hello <strong>EVERYONE</strong> reading this </p>")
+
+        });
+        </script>
+    </body>
+</html>

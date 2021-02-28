@@ -1,0 +1,15 @@
+body {
+  background-color: cyan;
+}
+
+h1 {
+  color: blue;
+}
+#one {
+  color: orange;
+  font-size: large;
+}
+.second {
+  color: green;
+  font-size: 25px;
+}
