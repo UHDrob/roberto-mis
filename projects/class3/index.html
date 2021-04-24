@@ -96,11 +96,11 @@
         <div class="col-lg-10 mx-auto">
           <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
           <p class="lead mb-5">Bootstrap</a>!</p>
-          <ol>
-            <li>Intro</li>
+          <ol style="text-align: left;">
+            <li>Intro to Bootstrap</li>
             <li>Buttons</li>
             <li>Grid - columns</li>
-            <li>Bootstrap form< -offsetting columns/li>
+            <li>Bootstrap form -offsetting columns</li>
             <li>jQuery</li>
           </ol>
           <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Let's go!</a>
@@ -123,8 +123,8 @@
       <button type="button" class="btn btn-light">Light</button>
       <button type="button" class="btn btn-dark">Dark</button>
       <button type="button" class="btn btn-link">Link</button>
-      <br><br>
-      <h5> Input button</h5> 
+      <br><br><br>
+      <h5> Input button</h5> <br>
       <input type="button" value="input button" />
       <p id="b1">code</p>
       <input class="btn btn-primary" type="button" value="send" />
@@ -134,28 +134,29 @@
 
       <button class="btn btn-secondary">Send again</button>
       <p id="b4">code</p>
-      
-      <p> link button</p>
       <a class="btn btn-success" href="https://www.uhcl.edu">Our School</a>
+      <p> link button</p>
     </div>
   </section>
 
   <!-- Grid Sample -->
   <section class="content-section bg-light" id="gridSample">
     <div class="container">
-      <h5>Grid Sample</h5>
+      <h4>Grid Sample</h4>
+      <h6>First Row: two columns</h6>
       <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <p>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-7">
             <p>
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
             </p>
           </div>
       </div>
+      <h6>Second Row: three columns</h6>
       <div class="row">
         <div class="col-md-4">
           <p>
@@ -231,13 +232,21 @@
           </form>
       </div>
 
+      <br><br><br>
+      <h4>Form with offset</h4>
       <div class="row">
         <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
           <form action="https://site.com/file.php" method="post">
-            <p>Name <input type="text" name="First"</p>
+            <p>First Name <input type="text" name="First"</p>
             <p>E-mail <input type="text" name="E-mail"</p>
             <p><input type="submit" value="Send" /></p>
           </form>
+        </div>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-3 offset-sm-1 col-form-label">Email</label>
+          <div class="col-sm-8">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
         </div>
       </div>
 
@@ -245,9 +254,9 @@
     </div>
   </section>
 
-  <!-- Carrousel Sample -->
+  <!-- Carrousel Sample 
   <section class="content-section bg-light" id="Carrousel">
-
+  -->
   </section>
 
   <!-- Google Fonts -->
@@ -271,55 +280,7 @@
     </div>
  </section>
 
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Services</h3>
-        <h2 class="mb-5">What We Offer</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
-          <h4>
-            <strong>Redesigned</strong>
-          </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
-          <h4>
-            <strong>Favorited</strong>
-          </h4>
-          <p class="text-faded mb-0">Millions of users
-            <i class="fas fa-heart"></i>
-            Start Bootstrap!</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Callout -->
   <section class="callout">
@@ -331,61 +292,7 @@
     </div>
   </section>
 
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Stationary</div>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Ice Cream</div>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Strawberries</div>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Workspace</div>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white">
@@ -449,8 +356,9 @@
     // A $( document ).ready() block.
     $( document ).ready(function() {
         $("#p1").text("Hello World! from jQuery");
-        $("#p2").html("<p>Hi <srtrong>people</strong></p>");
-
+        $("#p2").html("<p>Hi <srong>people</strong></p>");
+        $("#p3").css({"color":"blue"});
+          //Text for the FORM section
         $("#b1").text('<input type="button" value="input button" /> ');
         $("#b2").text(' <input class="btn btn-primary" type="button" value="send" /> ');
         $("#b3").text('   <button>Send button</button>');  
